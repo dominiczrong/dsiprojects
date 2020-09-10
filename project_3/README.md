@@ -2,7 +2,9 @@
 
 ### Problem Statement
 
-The main objective of this project is to scrape two subreddits: `Software Engineering` and `Data Science` through a webscrapper, leveraging on Reddit's API. The scraped data from the two subreddits will then be passed through various classification models, `CountVectorizer/TfidVectorizer` with `Naive Bayes Classifier`, `LogisticRegression`, `Random Forest`, `KNeighbours` and `Support Vector Classifier` that will assign each observation to the most likely class of subreddit. The models should help the data science marketing team of a company identify what makes the respective subreddit posts unique from one another.
+Being part of the Data Science Marketing Team of a coding bootcamp, I am interested in finding out what popular topics and keyword jargons belong to the fields of Data Science and Software Engineering. Conducting analysis on Reddit posts will allow me to craft online content and advertisements to better target people interested in Data Science or Software Engineering.
+
+The main objective of this project is to scrape two subreddits: `Software Engineering` and `Data Science` through a webscrapper, leveraging on Reddit's API. The scraped data from the two subreddits will then be passed through various classification models, `CountVectorizer/TfidVectorizer` with `Naive Bayes Classifier`, `LogisticRegression`, `Random Forest`, `KNeighbours` and `Support Vector Classifier` that will assign each observation to the most likely class of subreddit. The models should help the data science marketing team of my company identify what makes the respective subreddit posts unique from one another.
 
 In this process, the subreddit posts will undergo preprocessing and EDA. The success of the models that we decide on will be determined through the highest accuracy based on the scores obtained.
 
